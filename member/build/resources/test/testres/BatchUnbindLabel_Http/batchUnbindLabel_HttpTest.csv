@@ -1,0 +1,8 @@
+caseId,description,status,resultCode,spuId,labelIds
+batchUnbindLabel01,'正常用例，批量解绑spu绑定的商品标签',true,0,1086,"15,13,14"
+batchUnbindLabel02,'分支用例，supId为空',false,0,,"15,13,14"
+batchUnbindLabel03,'分支用例，spuId为null',false,0,null,"15,13,14"
+batchUnbindLabel04,'分支用例，spuId不存在',true,0,1,"15,13,14"
+batchUnbindLabel05,'分支用例，labelIds为空',true,0,1086,
+batchUnbindLabel06,'分支用例，labelIds为null',false,0,1086,null
+batchUnbindLabel07,'分支用例，labelIds为null',true,0,1086,"-1"

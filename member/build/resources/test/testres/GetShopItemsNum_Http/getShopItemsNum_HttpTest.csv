@@ -1,0 +1,4 @@
+caseId,description,shopId,status
+getShopItemsNum01,"shopId必传，status必传，接口返回正确",1002474,online
+getShopItemsNum02,"必填参数shopId不传，status=online，接口返回错误",,213002
+getShopItemsNum03,"必填参数status不传，shopId=1002474，接口返回错误",1002474,

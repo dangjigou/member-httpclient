@@ -1,0 +1,4 @@
+caseId,description,status,resultCode,userId,shopIds
+getMyFrequentBuy01,'正常用例，获取我常买商品列表',true,0,213002,"3693,4670,4688,4697,5455,5471,1000398,1001785,1002306,1002482,4499"
+getMyFrequentBuy02,'正常用例，userId为负数',true,0,-1,"3693,4670,4688,4697,5455,5471,1000398,1001785,1002306,1002482,4499"
+getMyFrequentBuy03,'正常用例，shopIds为空',true,0,213002,""

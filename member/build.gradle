@@ -1,0 +1,76 @@
+dependencies {
+//    compile('com.shandiangou.member:member-service:1.0+') {
+//        exclude group:'com.shandiangou.member', module:'*'
+//        exclude group:'org.slf4j', module: '*'
+//        exclude group:'log4j', module: '*'
+//    }
+    compile('com.shandiangou.member:member-api:1.0+') {
+        exclude group:'com.shandiangou.member', module:'*'
+        exclude group:'org.slf4j', module: '*'
+        exclude group:'log4j', module: '*'
+    }
+    compile('com.shandiangou.member:member-common:1.0+') {
+        exclude group:'com.shandiangou.member', module:'*'
+        exclude group:'org.slf4j', module: '*'
+        exclude group:'log4j', module: '*'
+    }
+    compile('com.shandiangou.itemcenter:itemcenter-client:1.5.8-SNAPSHOT') {
+
+        exclude group:'org.slf4j', module: '*'
+        exclude group:'log4j', module: '*'
+    }
+
+//    compile('com.shandiangou.member:member-web:1.0-SNAPSHOT') {
+//        exclude group:'com.shandiangou.member', module:'*'
+//        exclude group:'org.slf4j', module: '*'
+//        exclude group:'log4j', module: '*'
+//    }
+
+    compile('com.shandiangou.member:member-session:2.0+') {
+        exclude group:'org.slf4j', module: '*'
+        exclude group:'log4j', module: '*'
+    }
+
+    testCompile "junit:junit:4.11"
+    compile "org.springframework:spring-test:3.2.13.RELEASE"
+
+    compile "javax.servlet:javax.servlet-api:3.1.0"
+
+    compile "org.mockito:mockito-all:1.8.5"
+
+
+    compile "org.slf4j:slf4j-api:${slf4jVersion}"
+    compile "org.slf4j:slf4j-log4j12:${slf4jVersion}"
+    compile 'log4j:log4j:1.2.17'
+
+
+    compile "org.aspectj:aspectjweaver:1.8.6"
+    compile "commons-beanutils:commons-beanutils:1.9.2"
+    compile "org.apache.httpcomponents:httpclient:4.5.1"
+    compile "org.apache.httpcomponents:httpcore:4.4.3"
+    compile "org.mortbay.jetty:jetty-util:6.1.26"
+    compile "mysql:mysql-connector-java:5.1.36"
+    compile "net.sf.opencsv:opencsv:2.3"
+    compile "commons-lang:commons-lang:2.6"
+    compile "org.json:json:20140107"
+    compile "org.jmock:jmock:2.6.0"
+
+    testCompile 'org.spockframework:spock-core:1.0-groovy-2.4'
+
+    compile "com.shandiangou.sts:sts:0.1.20160304-SNAPSHOT"
+
+    compile("org.apache.zookeeper:zookeeper:3.4.6") {
+        exclude group: 'junit'
+        exclude group: 'io.netty'
+        exclude group: 'org.slf4j'
+        exclude group: 'jline'
+        exclude group: 'log4j'
+    }
+    compile("com.101tec:zkclient:0.7") {
+        exclude group: 'org.apache.zookeeper'
+        exclude group: 'log4j'
+        exclude group: 'org.slf4j'
+    }
+    compile group: 'org.codehaus.mojo', name: 'cobertura-maven-plugin', version: '2.6'
+
+}

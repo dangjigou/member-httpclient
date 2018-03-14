@@ -1,0 +1,6 @@
+caseId,description,fileName,filePath
+uploadImages01,'正常用例，上次图片成功',6920771610090-3.jpg,testres/UploadImages_Http/6920771610090-3.jpg
+uploadImages02,'正常用例，上次图片成功',6920771610090-2.jpg,testres/UploadImages_Http/6920771610090-2.jpg
+uploadImages03,'正常用例，上次图片成功',6920771610090-4.jpg,testres/UploadImages_Http/6920771610090-4.jpg
+uploadImages04,'正常用例，上次图片成功',6920771610090-5.jpg,testres/UploadImages_Http/6920771610090-5.jpg
+uploadImages05,'正常用例，上次图片成功',6920771610090-1.jpg,testres/UploadImages_Http/6920771610090-1.jpg

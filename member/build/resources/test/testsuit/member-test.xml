@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="HttpClientTest">
+       <test name="user">
+           <classes>
+               <class name="com.member.controller.httpUrl.user.Register_HttpTest"/>
+               <class name="com.member.controller.httpUrl.user.Login_HttpTest"/>
+               <class name="com.member.controller.httpUrl.user.GetRedisAuthCode_HttpTest"/>
+               <class name="com.member.controller.httpUrl.user.SendAuthCodeV1_HttpTest"/>
+               <class name="com.member.controller.httpUrl.user.ResetPwd_HttpTest"/>
+               <class name="com.member.controller.httpUrl.user.ResetBuyerPWD_HttpTest"/>
+               <class name="com.member.controller.httpUrl.user.GetUserAddressList_HttpTest"/>
+               <class name="com.member.controller.httpUrl.user.GetAddressBookByShops_HttpTest"/>
+               <class name="com.member.controller.httpUrl.user.SubmitPartner_HttpTest"/>
+               <class name="com.member.controller.httpUrl.user.GetUserInfo_HttpTest"/>
+               <class name="com.member.controller.httpUrl.user.GetUserbyUserId_HttpTest"/>
+               <class name="com.member.controller.httpUrl.user.GetLoginStatus_HttpTest"/>
+               <class name="com.member.controller.httpUrl.user.GetLogisticsAddressById_HttpTest"/>
+               <class name="com.member.controller.httpUrl.user.GetUserAddressById_HttpTest"/>
+               <class name="com.member.controller.httpUrl.user.GetUserbyMobile_HttpTest"/>
+               <class name="com.member.controller.httpUrl.user.GetUserbyMobileForCS_HttpTest"/>
+               <class name="com.member.controller.httpUrl.user.UploadImages_HttpTest"/>
+               <class name="com.member.controller.httpUrl.user.GetDefaultAddress_HttpTest"/>
+               <class name="com.member.controller.httpUrl.user.GetUserAddressCount_HttpTest"/>
+           </classes>
+       </test>
+
+    <test name="dubbo">
+        <classes>
+            <class name="com.member.controller.dubbo.UserService.GetUserLevelByMobile_DubboTest"/>
+            <class name="com.member.controller.dubbo.ItemListApiService.GetMyFrequentBuy_DubboTest"/>
+            <class name="com.member.controller.dubbo.ItemListApiService.GetRecommend_DubboTest"/>
+            <class name="com.member.controller.dubbo.ItemListApiService.GetSelectedCategoryItems_DubboTest"/>
+        </classes>
+    </test>
+
+    <test name="item">
+        <classes>
+            <class name="com.member.controller.httpUrl.item.Init_v2_HttpTest"/>
+            <class name="com.member.controller.httpUrl.item.Page_v2_HttpTest"/>
+            <class name="com.member.controller.httpUrl.item.Myfrequentbuy_HttpTest"/>
+            <class name="com.member.controller.httpUrl.item.AddLabelType_HttpTest"/>
+            <class name="com.member.controller.httpUrl.item.AddLabel_HttpTest"/>
+            <class name="com.member.controller.httpUrl.item.DeleteLabel_HttpTest"/>
+            <class name="com.member.controller.httpUrl.item.GetLabelTree_HttpTest"/>
+            <class name="com.member.controller.httpUrl.item.LabelBindSpu_HttpTest"/>
+            <class name="com.member.controller.httpUrl.item.SpuBindLabel_HttpTest"/>
+            <class name="com.member.controller.httpUrl.item.MultiBind_HttpTest"/>
+            <class name="com.member.controller.httpUrl.item.BatchUnbindSpu_HttpTest"/>
+            <class name="com.member.controller.httpUrl.item.BatchUnbindLabel_HttpTest"/>
+            <class name="com.member.controller.httpUrl.item.ImportLabelRelation_HttpTest"/>
+            <class name="com.member.controller.httpUrl.item.GetLabelSpuInfo_HttpTest"/>
+            <class name="com.member.controller.httpUrl.item.GetLabelDetail_HttpTest"/>
+            <class name="com.member.controller.httpUrl.item.Recommend_HttpTest"/>
+            <class name="com.member.controller.httpUrl.item.GetBoxUnitItems_HttpTest"/>
+            <class name="com.member.controller.httpUrl.item.GetBoxUnitItemsCount_HttpTest"/>
+            <class name="com.member.controller.httpUrl.item.GetHotItems_HttpTest"/>
+        </classes>
+    </test>
+
+    <test name="member">
+        <classes>
+            <class name="com.member.controller.httpUrl.member.AddMember_HttpTest"/>
+            <class name="com.member.controller.httpUrl.member.UpdateMemberMobile_HttpTest"/>
+            <class name="com.member.controller.httpUrl.member.UpdateMemberPassword_HttpTest"/>
+            <class name="com.member.controller.httpUrl.member.UpdateMember_HttpTest"/>
+            <class name="com.member.controller.httpUrl.member.GetMemberInfo_HttpTest"/>
+            <class name="com.member.controller.httpUrl.member.GetShopDiscountTemplate_HttpTest"/>
+            <class name="com.member.controller.httpUrl.member.IsMemberPassword_HttpTest"/>
+            <class name="com.member.controller.httpUrl.member.SaveShopDiscountTemplate_HttpTest"/>
+            <class name="com.member.controller.httpUrl.member.GetAddressAfterVerifyCode_HttpTest"/>
+        </classes>
+    </test>
+
+</suite>

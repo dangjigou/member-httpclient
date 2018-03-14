@@ -1,0 +1,16 @@
+caseId,description,mobile,role,code,pwd,repwd,encrypt,status,resultCode
+resetPWD01,'正确mobile、role、code、pwd、repwd，role为seller，修改密码成功',19712341235,seller,0000,qwe123,qwe123,,true,0
+resetPWD02,'密码中带有不识别的，修改密码成功',19011112301,seller,0621,qwe🐶🐶123,qwe🐶🐶123,,true,0
+resetPWD03,'错误验证码，修改密码失败',19712341235,seller,0011,qwe123,qwe123,,false,10105
+resetPWD04,'密码小于6位，修改密码失败',19712341235,seller,0000,qwe12,qwe123,,false,10247
+resetPWD05,'密码大于16位，修改密码失败',19712341235,seller,0000,qwe123123123123123123123,qwe123123123123123123123,,false,10247
+resetPWD06,'mobile为空，修改密码失败',,seller,0000,qwe123,qwe123,1,false,10207
+resetPWD07,'mobile为没传，修改密码失败',19712341235,seller,0000,qwe123,qwe123,1,false,10207
+resetPWD08,'mobile为null，修改密码失败',null,seller,0000,qwe123,qwe123,1,false,10207
+resetPWD09,'code为空，修改密码失败',19712341235,seller,,qwe123,qwe123,1,false,10204
+resetPWD10,'code为null，修改密码失败',19712341235,seller,null,qwe123,qwe123,1,false,10105
+resetPWD11,'role为空，修改密码失败',19712341235,,0000,qwe123,qwe123,1,false,10238
+resetPWD12,'role为null，修改密码失败',19712341235,null,0000,qwe123,qwe123,1,false,10220
+resetPWD13,'pwd为空，修改密码失败',19712341235,seller,0000,,qwe123,1,false,10246
+resetPWD14,'pwd和repwd不一致，修改密码失败',19712341235,seller,0000,qwe123,qweqwe,1,false,10214
+resetPWD15,'role为crm，修改密码成功',12345679000,crm,1130,qwe123,qwe123,1,true,0

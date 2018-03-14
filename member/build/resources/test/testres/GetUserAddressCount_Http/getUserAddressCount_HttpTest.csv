@@ -1,0 +1,3 @@
+caseId,description,role,mobile,password
+getUserAddressCount01,'正常用例，获取用户地址数量',buyer,12345679000,1130
+getUserAddressCount02,'异常用例，用户没有登录，获取地址数量失败',buyer,12345679000,1130

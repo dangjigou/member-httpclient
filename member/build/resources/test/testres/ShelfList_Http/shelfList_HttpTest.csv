@@ -1,0 +1,4 @@
+caseId,description,status,resultCode,shopId,withSkuCount
+shelfList01,'正常用例，集团获取前台类目列表',true,0,72,true
+shelfList02,'分支用例，withSkuCount为false',true,0,72,false
+shelfList03,'分支用例，shopId为null',false,0,null,true

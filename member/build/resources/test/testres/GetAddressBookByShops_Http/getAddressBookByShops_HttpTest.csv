@@ -1,0 +1,6 @@
+caseId,description,role,mobile,password,landmarkId,shopIds,status,resultCode
+getAddressBookByShops01,'正常用例，获取地标下用户地址',buyer,12345679000,1130,2087307,3693,true,0
+getAddressBookByShops02,'必填字段shopIds没有传',buyer,12345679000,1130,2087307,3693,false,10216
+getAddressBookByShops03,'必填字段shopIds为null',buyer,12345679000,1130,2087307,null,false,10216
+getAddressBookByShops04,'必填字段landmarkId没有传',buyer,12345679000,1130,2087307,3693,false,10216
+getAddressBookByShops05,'必填字段landmarkId为null',buyer,12345679000,1130,null,3693,false,10216

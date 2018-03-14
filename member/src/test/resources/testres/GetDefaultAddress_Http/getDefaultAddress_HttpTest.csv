@@ -1,0 +1,3 @@
+caseId,description,role,mobile,password,status,resultCode
+getDefaultAddress01,'正常用例，用户登录，获取默认地址成功',buyer,12345679000,1130,true,0
+getDefaultAddress02,'异常用例，用户没有登录，获取默认地址失败',buyer,12345679000,1130,false,10212

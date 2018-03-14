@@ -1,0 +1,5 @@
+caseId,description,status,resultCode,setCount
+getLabelTree01,'正常用例，获取标签树',true,0,1
+getLabelTree02,'分支用例，setCount为0',true,0,0
+getLabelTree03,'分支用例，setCount为空',true,0,
+getLabelTree04,'分支用例，setCount为null',false,0,null

@@ -1,0 +1,14 @@
+caseId,description,applyName,mobile,shopName,shopType,province,city,district,address,hasDelivery,openingTime,hasBusinessLicense,hasFoodLicense
+submitPartner01,商家申请加盟成功,test孙,16111111111,测试店铺名称,1,浙江省,杭州市,西湖区,晴川街222号,1,9:00–20:00,1,1
+submitPartner02,必填参数applyName没有传，申请失败,test孙,16111111111,测试店铺名称,1,浙江省,杭州市,西湖区,晴川街222号,1,9:00–20:00,1,1
+submitPartner03,必填参数mobile没有传，申请失败,test孙,16111111111,测试店铺名称,1,浙江省,杭州市,西湖区,晴川街222号',1,9:00–20:00,1,1
+submitPartner04,必填参数shopName没有传，申请失败,test孙,16111111111,测试店铺名称,1,浙江省,杭州市,西湖区,晴川街222号,1,9:00–20:00,1,1
+submitPartner05,必填参数shopType没有传，申请失败,test孙,16111111111,测试店铺名称,1,浙江省,杭州市,西湖区,晴川街222号,1,9:00–20:00,1,1
+submitPartner06,必填参数province没有传，申请失败,test孙,16111111111,测试店铺名称,1,浙江省,杭州市,西湖区,晴川街222号,1,9:00–20:00,1,1
+submitPartner07,必填参数city没有传，申请失败,test孙,16111111111,测试店铺名称,1,浙江省,杭州市,西湖区,晴川街222号,1,9:00–20:00,1,1
+submitPartner10,必填参数district没有传，申请失败,test孙,16111111111,测试店铺名称,1,浙江省,杭州市,西湖区,晴川街222号,1,9:00–20:00,1,1
+submitPartner11,必填参数address没有传，申请失败,test孙,16111111111,测试店铺名称,1,浙江省,杭州市,西湖区,晴川街222号,1,9:00–20:00,1,1
+submitPartner12,必填参数hasDelivery没有传，申请失败,test孙,16111111111,测试店铺名称,1,浙江省,杭州市,西湖区,晴川街222号,1,9:00–20:00,1,1
+submitPartner13,必填参数openingTime没有传，申请失败,test孙,16111111111,测试店铺名称,1,浙江省,杭州市,西湖区,晴川街222号,1,9:00–20:00,1,1
+submitPartner14,必填参数hasBusinessLicense没有传，申请失败,test孙,16111111111,测试店铺名称,1,浙江省,杭州市,西湖区,晴川街222号,1,9:00–20:00,1,1
+submitPartner15,必填参数hasFoodLicense没有传，申请失败,test孙,16111111111,测试店铺名称,1,浙江省,杭州市,西湖区,晴川街222号,1,9:00–20:00,1,1

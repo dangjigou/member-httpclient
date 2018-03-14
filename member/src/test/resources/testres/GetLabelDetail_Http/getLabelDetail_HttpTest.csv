@@ -1,0 +1,9 @@
+caseId,description,status,resultCode,labelId,containSpu
+getLabelTree01,'正常用例，获取标签树，containSpu等于0',true,0,17,0
+getLabelTree02,'正常用例，获取标签树，containSpu等于1',true,0,17,1
+getLabelTree03,'分支用例，labelId为空',false,0,,0
+getLabelTree04,'分支用例，labelId为null',false,0,null,0
+getLabelTree05,'分支用例，labelId不存在',false,-1,-1,0
+getLabelTree06,'分支用例，containSpu为空',true,0,17,
+getLabelTree07,'分支用例，containSpu为null',false,-1,17,null
+getLabelTree08,'分支用例，containSpu为负数',true,0,17,-1

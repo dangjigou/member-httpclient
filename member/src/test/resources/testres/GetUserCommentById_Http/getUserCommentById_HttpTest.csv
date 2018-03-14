@@ -1,0 +1,5 @@
+caseId,description,status,resultCode,commentId
+getUserCommentById01,'正常用例，获取用户意见反馈成功',true,0,100
+getUserCommentById02,'分支用例，userId为空',true,0,
+getUserCommentById03,'分支用例，userId为null',false,10216,null
+getUserCommentById04,'分支用例，userId为不存在',true,0,-1

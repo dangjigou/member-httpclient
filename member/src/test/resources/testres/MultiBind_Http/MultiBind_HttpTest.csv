@@ -1,0 +1,10 @@
+caseId,description,status,resultCode,spuIds,labelIds
+spuBindLabel01,'正常用例，spu绑定标签成功',true,0,"1234,1444","15,13,14"
+spuBindLabel02,'分支用例，spuIds为空',false,0,,"15,13,14"
+spuBindLabel03,'分支用例，spuIds为null',false,0,null,"15,13,14"
+spuBindLabel04,'分支用例，spuIds为为负数',false,0,-1,"15,13,14"
+spuBindLabel05,'分支用例，spuIds为不存在',false,0,13118,"15,13,14"
+spuBindLabel06,'分支用例，labelIds为空',false,0,"1234,1444",""
+spuBindLabel07,'分支用例，labelIds为null',false,0,"1234,1444",null
+spuBindLabel08,'分支用例，labelIds为负数',false,0,"1234,1444","-1"
+spuBindLabel09,'分支用例，labelIds为不存在',false,0,"1234,1444","8"

@@ -1,0 +1,6 @@
+caseId,description,status,resultCode,shopIds
+myfrequentbuy01,'正常用例，shopIds为一个，获取我常买商品',true,0,"5473"
+myfrequentbuy02,'正常用例，shopIds为多个，获取我常买商品',true,0,"5473,3693,4499"
+myfrequentbuy03,'分支用例，shopIds为空',false,41,
+myfrequentbuy04,'分支用例，shopIds为null字符串',false,,null
+myfrequentbuy05,'分支用例，shopIds未传',false,,null

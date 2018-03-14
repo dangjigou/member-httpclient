@@ -1,0 +1,6 @@
+caseId,description,mobile,role,password,userId
+getUserbyUserId01,'正常用例，获取当前登陆用户信息',12345679000,buyer,1130,213002
+getUserbyUserId02,'异常用例，用户没有登录，调用接口失败',12345679200,seller,qwe123,213002
+getUserbyUserId03,'异常用例，userId不存在',12345679000,buyer,1130,7
+getUserbyUserId04,'正常用例，userId没传',12345679000,buyer,1130,213002
+getUserbyUserId05,'正常用例，userId为空',12345679000,buyer,1130,

@@ -1,0 +1,6 @@
+caseId,description,status,resultCode,name,organizeId,parentId
+shelfUpdate01,'正常用例，集团创建前台类目列表',true,0,接口测试,72,0
+shelfUpdate02,'分支用例，name超过8个字符长度',false,0,接口测试测试测试测,72,0
+shelfUpdate03,'分支用例，不属于该登录账号的集团无法创建类目',false,0,接口测试,71,0
+shelfUpdate04,'分支用例，organizeId不存在',false,0,接口测试,111111111,0
+shelfUpdate05,'分支用例，前台类目名称已经存在',false,0,接口测试误删,111111111,0

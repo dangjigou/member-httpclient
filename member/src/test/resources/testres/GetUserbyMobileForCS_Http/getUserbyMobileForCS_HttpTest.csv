@@ -1,0 +1,8 @@
+caseId,description,mobile,role,password,userMobile
+getUserbyMobileForCS01,'正常用例，mobile为店主手机号码',12345679000,buyer,1130,12345679200
+getUserbyMobileForCS02,'正常用例，mobile为店员手机号码',12345679000,buyer,1130,15000000001
+getUserbyMobileForCS03,'异常用例，用户没有登录，调用接口失败',12345679200,seller,qwe123,15067163153
+getUserbyMobileForCS04,'异常用例，mobile对应用户不存在',12345679000,buyer,1130,7
+getUserbyMobileForCS05,'正常用例，mobile没传',12345679000,buyer,1130,15067163153
+getUserbyMobileForCS06,'正常用例，mobile为空',12345679000,buyer,1130,
+getUserbyMobileForCS07,'正常用例，mobile为空',12345679000,buyer,1130,null

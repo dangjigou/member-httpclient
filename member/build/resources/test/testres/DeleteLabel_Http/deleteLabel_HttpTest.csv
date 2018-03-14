@@ -1,0 +1,5 @@
+caseId,description,status,resultCode,labelId
+deleteLabel01,'正常用例，删除标签成功',true,0,12
+deleteLabel02,'分支用例，labelId为空',false,0,
+deleteLabel03,'分支用例，labelId为null',false,0,null
+deleteLabel04,'分支用例，labelId不存在',true,0,-1

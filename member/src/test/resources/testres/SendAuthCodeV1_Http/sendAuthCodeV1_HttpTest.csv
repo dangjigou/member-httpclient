@@ -1,0 +1,8 @@
+caseId,description,mobile,type,ak,sk,sellerType,status,resultCode
+sendAuthCode01,'发送短信验证码成功',12345679000,sms,aMdi6T4a2kA=,iS0Dc7zK2/Ef/rxoe480Yg==,,true,0
+sendAuthCode02,'sn错误数字签名失败',12345679999,sms,aMdi6T4a2kA=,iS0Dc7zK2/Ef/rxoe480Yg==,,false,304000001
+sendAuthCode03,'30s内发送多次导致失败',12345679998,sms,aMdi6T4a2kA=,iS0Dc7zK2/Ef/rxoe480Yg==,,false,10101
+sendAuthCode04,'发送次数超过5次，当天不可在发送',12345679997,sms,aMdi6T4a2kA=,iS0Dc7zK2/Ef/rxoe480Yg==,,false,10102
+sendAuthCode05,'已经注册过外卖通的用户，发送验证码失败',19000019901,sms,aMdi6T4a2kA=,iS0Dc7zK2/Ef/rxoe480Yg==,wmt,false,10283
+sendAuthCode06,'已经注册过的用户level>200，wmt方式发送验证码失败',12345679000,sms,aMdi6T4a2kA=,iS0Dc7zK2/Ef/rxoe480Yg==,wmt,false,10285
+sendAuthCode07,'已经注册过的闪电帮用户，wmt方式发送验证码失败',12345679200,sms,aMdi6T4a2kA=,iS0Dc7zK2/Ef/rxoe480Yg==,wmt,false,10284

@@ -1,0 +1,5 @@
+caseId,description,status,resultCode,shopIds,count
+recommend01,'正常用例，获取推荐商品',true,0,"5455,1002306,1002025,5471,1002482,4748",20
+recommend02,'分支用例，shopIds为空',false,0,,10
+recommend03,'分支用例，shopIds为null',false,0,null,10
+recommend04,'分支用例，shopIds不存在',true,0,-1,10

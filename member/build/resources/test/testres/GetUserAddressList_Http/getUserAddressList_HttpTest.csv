@@ -1,0 +1,3 @@
+caseId,description,role,mobile,password
+getUserAddressList01,'正常用例，获取用户地址列表',buyer,12345679000,1130
+getUserAddressList02,'异常用例，用户没有登录，获取地址失败',buyer,12345679000,1130

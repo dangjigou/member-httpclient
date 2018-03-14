@@ -1,0 +1,7 @@
+caseId,description,status,resultCode,labelName,typeId
+addLabel01,'正常用例，添加会员成功',true,0,光光勿删,10
+addLabel02,'分支用例，typeName为空',false,-1,,10
+addLabel03,'分支用例，typeName已经存在',false,0,光光勿删,10
+addLabel04,'分支用例，typeId不存在',false,0,光光勿删,9
+addLabel05,'分支用例，typeId为空',false,0,光光勿删,
+addLabel06,'分支用例，typeId为null',false,0,光光勿删,null

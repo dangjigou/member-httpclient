@@ -1,0 +1,3 @@
+caseId,description,status,resultCode,shopIds,count,renderMark
+getFineQualityItems01,'正常用例，获取小资生活商品列表',true,0,"3693,4670,4688,4697,5455,5471,1000398,1001785,1002306,1002482,4499",10,1
+getFineQualityItems02,'正常用例，获取小资生活商品列表',true,0,"3693,4670,4688,4697,5455,5471,1000398,1001785,1002306,1002482,4499",10,0

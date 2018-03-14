@@ -1,0 +1,11 @@
+caseId,description,shopIds,userId
+init01,"shopIds传一个，userId传一个，接口返回正确",5552,213002
+init02,"shopIds传两个，userId传一个，接口返回正确","3693,4499",213002
+init03,"必填参数shopIds不传，userId=213002，接口返回错误","3693,4499",213002
+init04,"必填参数shopIds为null，userId=213002,接口返回错误",null,213002
+init05,"必填参数shopIds为空，userId=213002,接口返回错误",,213002
+init06,"shopIds不存在：shopIds=1999999999，userId=213002,接口正确，返回空数据",1999999999,213002
+init07,"userId不传，shopIds＝3693,接口返回正确",3693,213002
+init08,"userId为null，userId=null，shopIds＝3693,接口返回正确",3693,null
+init09,"userId为空，userId＝，shopIds＝3693,接口返回正确",3693,
+init10,"userId不存在：userId=-1，shopIds＝3693,参数类型不匹配",3693,－1

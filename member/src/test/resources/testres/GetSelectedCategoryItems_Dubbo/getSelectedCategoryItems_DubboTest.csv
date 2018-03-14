@@ -1,0 +1,3 @@
+caseId,description,status,resultCode,shopIds1,withFixedFrontCatIds1,minItemNumPerCat
+getSelectedCategoryItems01,'正常用例，精选类目获取成功',true,0,"3693,4670,4688,4697,5455,1002025,1002482,5471,1000398,1002306,4499","23",8
+getSelectedCategoryItems02,'分支用例，withFixedFrontCatIds为空',true,0,"3693",,8

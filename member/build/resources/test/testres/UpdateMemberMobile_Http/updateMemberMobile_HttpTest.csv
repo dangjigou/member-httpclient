@@ -1,0 +1,2 @@
+caseId,description,id,mobile,code,password
+updateMemberMobile01,'正常用例，添加会员成功',8,19011112272,0621,8888

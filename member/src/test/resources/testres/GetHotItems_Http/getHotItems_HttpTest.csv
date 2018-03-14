@@ -1,0 +1,8 @@
+caseId,description,status,resultCode,shopIds,count
+getHotItems01,'正常用例，获取热销排行商品',true,0,3693,100
+getHotItems02,'分支用例，shopIds为空',false,0,,100
+getHotItems03,'分支用例，shopIds为null',false,0,null,100
+getHotItems04,'分支用例，shopIds不存在',true,0,-1,100
+getHotItems05,'分支用例，count为空',false,0,5473,
+getHotItems06,'分支用例，count为null',false,0,5473,null
+getHotItems07,'分支用例，count为负数',true,0,5473,-1

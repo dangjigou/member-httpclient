@@ -1,0 +1,2 @@
+caseId,description,status,resultCode,fileName,filePath
+uploadImages01,'正常用例，导入标签绑定关系',true,0,importLabelRelation.xls,testres/ImportLabelRelation_Http/importLabelRelation.xls

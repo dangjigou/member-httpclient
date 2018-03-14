@@ -1,0 +1,6 @@
+caseId,description,role,addressId
+getUserAddressById01,'正常用例，根据ID获取地址成功',buyer,1816
+getUserAddressById02,'异常用例，非自己地址获取失败',buyer,1314
+getUserAddressById03,'异常用例，地址ID不存在',buyer,1
+getUserAddressById04,'异常用例，用户没有登录，获取地址失败',buyer,1816
+getUserAddressById05,'异常用例，必传参数addressId没有传',buyer,1816

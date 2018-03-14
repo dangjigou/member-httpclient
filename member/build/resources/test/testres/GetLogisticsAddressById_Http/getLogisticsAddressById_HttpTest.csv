@@ -1,0 +1,6 @@
+caseId,description,role,addressId,status,resultCode
+getLogisticsAddressById01,'正常用例，根据ID获取地址成功',buyer,1816,true,0
+getLogisticsAddressById02,'异常用例，非自己地址获取失败',buyer,1314,false,10240
+getLogisticsAddressById03,'异常用例，地址ID不存在',buyer,1,false,10239
+getLogisticsAddressById04,'异常用例，用户没有登录，获取地址失败',buyer,1816,true,0
+getLogisticsAddressById05,'异常用例，必传参数addressId没有传',buyer,1816,false,10216

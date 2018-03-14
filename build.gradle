@@ -1,0 +1,90 @@
+
+allprojects {
+    apply plugin: 'java'
+    apply plugin: 'idea'
+    apply plugin: 'maven'
+    apply plugin: 'findbugs'
+
+    idea {
+        module {
+            downloadSources=true
+            downloadJavadoc=true
+        }
+    }
+
+    configurations {
+        provided
+        compile.extendsFrom provided
+        deployerJars
+    }
+
+    uploadArchives {
+        repositories {
+            mavenDeployer {
+                configuration = configurations.deployerJars
+                snapshotRepository(url: "http://mvnrepository.51xianqu.com/nexus/content/repositories/snapshots/") {
+                    authentication(userName: "admin", password: "shandiangounexus51")
+                }
+            }
+        }
+    }
+
+    task sourcesJar(type: Jar, dependsOn: classes) {
+        classifier = 'sources'
+        from sourceSets.main.allSource
+    }
+
+    task javadocJar(type: Jar, dependsOn: javadoc) {
+        classifier = 'javadoc'
+        from javadoc.destinationDir
+    }
+
+    artifacts {
+        archives sourcesJar
+        archives javadocJar
+    }
+
+    repositories {
+        maven {
+            name 'sdg-repository'
+            url 'http://mvnrepository.51xianqu.com/nexus/content/groups/public/'
+        }
+        mavenLocal()
+    }
+
+    configurations.all {
+        // check for updates every build
+        resolutionStrategy.cacheChangingModulesFor 0, 'seconds'
+    }
+
+    repositories {
+        jcenter()
+    }
+
+    dependencies {
+        testCompile 'org.testng:testng:6.9.4'
+    }
+
+    test.useTestNG(){
+        useDefaultListeners = true
+//        suites(file('src/test/resources/testsuit/member-test.xml'))
+    }
+
+    group 'member'
+    version '1.0-SNAPSHOT'
+
+    ext {
+        springVersion = '3.2.13.RELEASE'
+        druidVersion = '1.0.14'
+        mysqlVersion = '5.1.30'
+        dubboVersion = '2.5.3'
+        slf4jVersion = '1.7.12'
+        jacksonVersion = '1.9.13'
+    }
+
+    sourceCompatibility = 1.7
+}
+
+ext {
+    slf4jVersion='1.7.12'
+}

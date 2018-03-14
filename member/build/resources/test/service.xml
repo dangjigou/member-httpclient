@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:dubbo="http://code.alibabatech.com/schema/dubbo" xmlns:util="http://www.springframework.org/schema/util"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+ http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd
+http://code.alibabatech.com/schema/dubbo http://code.alibabatech.com/schema/dubbo/dubbo.xsd http://www.springframework.org/schema/util http://www.springframework.org/schema/util/spring-util.xsd">
+   <!-- 扫描服务-->
+    <context:component-scan base-package="com.shandiangou.member.service"/>
+    <context:component-scan base-package="com.shandiangou.itemcenter.open"/>
+
+    <!-- 提供方应用信息，用于计算依赖关系 -->
+    <dubbo:application name="member-httpclient"/>
+
+    <!-- 注册中心暴露服务地址 -->
+    <dubbo:registry protocol="zookeeper" address="${dubbo_zk_url}" file="${dubbo_cache}"
+                    register="${dubbo.register.switch}"/>
+
+    <dubbo:monitor protocol="registry"/>
+
+    <dubbo:protocol port="-1"/>
+
+    <!--<dubbo:reference id="memberService" interface="com.shandiangou.member.service.MemberService" check="false"  timeout="3000"/>-->
+    <!--<dubbo:reference id="userAccountService" interface="com.shandiangou.member.service.UserAccountService" check="false" timeout="3000"/>-->
+    <!--<dubbo:reference id="userAddressService" interface="com.shandiangou.member.service.UserAddressService" check="false" timeout="3000"/>-->
+    <!--<dubbo:reference id="iconService" interface="com.shandiangou.member.service.IconService" check="false" timeout="3000"/>-->
+    <dubbo:reference id="userService" interface="com.shandiangou.member.service.UserService" check="false" timeout="3000"/>
+    <dubbo:reference id="itemListApiService" interface="com.shandiangou.itemcenter.open.api.ItemListApiService" check="false" timeout="3000"/>
+    <!--<dubbo:reference id="userShopService" interface="com.shandiangou.member.service.UserShopService" check="false" timeout="3000"/>-->
+    <!--<dubbo:reference id="userMappingService" interface="com.shandiangou.member.service.UserMappingService" check="false" timeout="3000"/>-->
+    <!--<dubbo:reference id="customMessageService" interface="com.shandiangou.member.service.CustomMessageService" check="false" timeout="3000"/>-->
+
+
+    <!-- 读取配置文件 -->
+    <bean id="propertyPlaceholderConfigurer" class="org.springframework.beans.factory.config.PropertyPlaceholderConfigurer">
+        <property name="location">
+            <value>classpath:server.properties</value>
+        </property>
+    </bean>
+
+    <util:properties id="serverSettings" location="classpath:server.properties"/>
+
+    <!--<context:property-placeholder location="classpath:server.properties" ignore-unresolvable="true" />-->
+
+</beans>

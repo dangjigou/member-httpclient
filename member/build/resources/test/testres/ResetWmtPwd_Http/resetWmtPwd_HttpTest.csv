@@ -1,0 +1,14 @@
+caseId,description,mobile,role,code,pwd,repwd,encrypt,status,resultCode
+resetWmtPWD01,'正确mobile、role、code、pwd、repwd，role为seller，修改密码成功',19011112398,seller,0621,qwe123,qwe123,,true,0
+resetWmtPWD02,'密码中带有不识别的，修改密码成功',19011112397,seller,0621,qwe🐶🐶123,qwe🐶🐶123,,true,0
+resetWmtPWD03,'错误验证码，修改密码失败',19011112398,seller,0011,qwe123,qwe123,,false,10105
+resetWmtPWD04,'密码小于6位，修改密码失败',19011112398,seller,0621,qwe12,qwe123,,false,10247
+resetWmtPWD05,'密码大于16位，修改密码失败',19011112398,seller,0621,qwe123123123123123123123,qwe123123123123123123123,,false,10247
+resetWmtPWD06,'mobile为空，修改密码失败',,seller,0621,qwe123,qwe123,1,false,10207
+resetWmtPWD07,'mobile为没传，修改密码失败',19011112398,seller,0621,qwe123,qwe123,1,false,10216
+resetWmtPWD08,'mobile为null，修改密码失败',null,seller,0621,qwe123,qwe123,1,false,10207
+resetWmtPWD09,'code为空，修改密码失败',19011112398,seller,,qwe123,qwe123,1,false,10204
+resetWmtPWD10,'code为null，修改密码失败',19011112398,seller,null,qwe123,qwe123,1,false,10105
+resetWmtPWD11,'pwd为空，修改密码失败',19011112398,seller,0621,,qwe123,1,false,10246
+resetWmtPWD12,'用户为闪电帮账号，外卖通修改密码接口修改密码失败',12345679200,seller,0000,,qwe123,1,false,10246
+resetWmtPWD13,'错误验证码次数超过5次，修改密码失败',19011112398,seller,0011,qwe123,qwe123,,false,10101

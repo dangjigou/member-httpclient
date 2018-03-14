@@ -1,0 +1,2 @@
+caseId,description,status,resultCode,shopIds,offset,pageSize,parentCatIds,childCatIds,sortBy,userId
+spuBindLabel01,'正常用例，spu绑定标签成功',true,0,"3693,4670,4688,4697,5455,1002482,1002306,1002025,4499,1000398,5471",0,35,44,,0,0

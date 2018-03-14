@@ -1,0 +1,2 @@
+caseId,description,id,userId,shopId,mobile,code,password,name,sex,address
+updateMember01,'正常用例，添加会员成功',8,126408520,3693,19011112272,0621,,'会员测试1.1',0,'地址测试0.0'

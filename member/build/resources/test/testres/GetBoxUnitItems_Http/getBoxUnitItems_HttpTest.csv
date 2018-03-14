@@ -1,0 +1,5 @@
+caseId,description,status,resultCode,shopIds,count
+getBoxUnitItems01,'正常用例，获取整箱购商品成功',true,0,"3693",10
+getBoxUnitItems02,'分支用例，shopIds为空',false,0,,10
+getBoxUnitItems03,'正常用例，获取整箱购商品成功',true,0,"5473,3693,4499",0
+getBoxUnitItems04,'分支用例，shopIds为null',false,0,null,10

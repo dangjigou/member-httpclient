@@ -1,0 +1,7 @@
+caseId,description,mobile,code,pwd,encrypt,status,resultCode
+resetBuyerPWD01,'正确mobile、code、pwd，修改密码成功',19712341235,0000,qwe123,,true,0
+resetBuyerPWD02,'密码中带有不识别的，修改密码成功',19011112301,0621,qwe🐶🐶123,,true,0
+resetBuyerPWD03,'错误验证码，修改密码失败',19712341235,0011,qwe123,,false,10105
+resetBuyerPWD04,'密码小于6位，修改密码失败',19712341235,0000,qwe12,,false,10247
+resetBuyerPWD05,'密码大于16位，修改密码失败',19712341235,0000,qwe123123123123123123123,,false,10247
+resetBuyerPWD06,'正确mobile、code、pwd，修改密码成功',19712341235,0000,qwe123,1,true,0

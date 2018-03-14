@@ -1,0 +1,5 @@
+caseId,description,status,resultCode,id,name,organizeId
+shelfUpdate01,'正常用例，集团更新前台类目列表',true,0,15163,接口测试误删,72
+shelfUpdate02,'分支用例，name超过8个字符长度',false,0,15163,接口测试误删测试测,72
+shelfUpdate03,'分支用例，id不正确',false,0,1516312312,接口测试误删,72
+shelfUpdate04,'分支用例，不属于该集团的类目，不允许修改',false,0,18215,接口测试误删,129

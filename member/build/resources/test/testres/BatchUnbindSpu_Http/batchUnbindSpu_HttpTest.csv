@@ -1,0 +1,8 @@
+caseId,description,status,resultCode,labelId,spuIds
+batchUnbindSpu01,'正常用例，批量解绑标签绑定的spu',true,0,16,"1466,1085,1086"
+batchUnbindSpu02,'分支用例，labelId为空',false,0,,"1466,1085,1086"
+batchUnbindSpu03,'分支用例，labelId为null',false,0,null,"1466,1085,1086"
+batchUnbindSpu04,'分支用例，labelId不存在',true,0,-1,"1466,1085,1086"
+batchUnbindSpu05,'分支用例，spuIds为空',true,0,16,
+batchUnbindSpu06,'分支用例，spuIds为null',false,0,16,null
+batchUnbindSpu07,'分支用例，spuIds不存在',false,0,16,null

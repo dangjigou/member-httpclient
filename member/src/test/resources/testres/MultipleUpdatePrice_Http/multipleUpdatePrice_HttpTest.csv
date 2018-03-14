@@ -1,0 +1,2 @@
+caseId,description,fileName,filePath
+uploadImages01,'正常用例，上次图片成功',update_price_multiple.xlsx,testres/MultipleUpdatePrice_Http/update_price_multiple.xlsx

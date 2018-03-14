@@ -1,0 +1,2 @@
+caseId,description,shopId,mobile,code,password,name,sex,address
+addMember01,'正常用例，添加会员成功',3693,19011112273,0621,8888,'会员测试0.0',1,'地址测试0.0'

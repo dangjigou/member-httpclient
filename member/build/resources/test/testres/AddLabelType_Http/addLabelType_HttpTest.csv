@@ -1,0 +1,5 @@
+caseId,description,status,resultCode,typeName
+addLabelType01,'正常用例，添加会员成功',true,0,光光
+addLabelType02,'分支用例，typeName为空',false,-1,
+addLabelType03,'分支用例，typeName已经存在',false,0,光光
+addLabelType04,'分支用例，typeName为null',true,0,null

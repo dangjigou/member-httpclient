@@ -1,0 +1,11 @@
+caseId,description,status,resultCode,labelId,pageNo,pageSize
+getLabelWithSpuInfo01,'正常用例，获取标签树',true,0,16,1,10
+getLabelWithSpuInfo02,'分支用例，labelId为空',false,0,,1,10
+getLabelWithSpuInfo03,'分支用例，labelId为null',false,0,null,1,10
+getLabelWithSpuInfo04,'分支用例，labelId为不存在',true,0,-1,1,10
+getLabelWithSpuInfo05,'分支用例，pageNo为空',true,0,16,,10
+getLabelWithSpuInfo06,'分支用例，pageNo为null',false,0,16,null,10
+getLabelWithSpuInfo07,'分支用例，pageNo为负数',true,0,16,-1,10
+getLabelWithSpuInfo08,'分支用例，pageSize为空',true,0,16,1,
+getLabelWithSpuInfo09,'分支用例，pageSize为null',false,0,16,1,null
+getLabelWithSpuInfo010,'分支用例，pageSize为负数',false,0,16,1,-10

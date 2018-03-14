@@ -1,0 +1,3 @@
+caseId,description,mobile,role,password
+getUserInfo01,'正常用例，获取当前登陆用户信息',12345679000,buyer,1130
+getUserInfo02,'异常用例，用户没有登录，调用接口失败',12345679000,buyer,1130

@@ -1,0 +1,2 @@
+caseId,description,shopId,allowDiscount,discount,allowSdgMember
+saveShopDiscountTemplate01,'正常用例，添加会员成功',3693,1,50,0
